@@ -40,6 +40,8 @@ We have tested on:
 
 Install all the libraries through `pip install -r requirements.txt`
 
+自己的macbook，改动了一些。主要是版本号。
+
 ### Pretrained Models
 Please download the pre-trained models from [Google Drive](https://drive.google.com/drive/folders/1niTspxYSQi62Vgqai5QEgBUcdLRwy9lw?usp=drive_link).
 
@@ -67,6 +69,9 @@ Transfer the pretrained style onto a given image. Results are saved in the `./ou
 ```bash
 python inference.py --style=style3 --input_image=./data/test_inputs/002.png --alpha=0.8
 ```
+
+下载style3.pt issue 1
+
 
 **Note:** We use pretrained e4e for input image inversion, make sure the pretrained e4e has been downloaded and placed 
 to `./checkpoints`. _Although using e4e can save inference time, the final results are sometimes different from the input images._
