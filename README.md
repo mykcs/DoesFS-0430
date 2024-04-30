@@ -1,5 +1,7 @@
 # Deformable One-shot Face Stylization via DINO Semantic Guidance
 
+2024 0430 issue 1 因为macos，暂时搁置
+
 
 [Yang Zhou](https://zhouyangvcc.github.io/), [Zichong Chen](https://github.com/zichongc), [Hui Huang](https://vcc.tech/~huihuang)
 
