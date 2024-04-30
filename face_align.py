@@ -6,7 +6,8 @@ import dlib
 import numpy as np
 from torchvision import transforms
 import scipy
-import cv2.cv2 as cv
+# import cv2.cv2 as cv
+import cv2 as cv
 
 
 def get_landmark(filepath, predictor):
